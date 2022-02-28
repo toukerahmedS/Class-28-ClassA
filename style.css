@@ -1,0 +1,336 @@
+img{
+    max-width: 100%;
+}
+div,h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+
+
+/**** Header Section ****/
+.navbar-brand img{
+    width: 100px;
+}
+
+
+/**** Dropdown Menu Hover ****/
+.d-menu{
+    visibility: hidden;
+    opacity: 0;
+}
+.nav-item:hover .d-menu{
+    visibility: visible !important;
+    opacity: 1;
+}
+.nav-item a{
+    font-size: 15px;
+    padding: 0 15px !important;
+}
+
+
+/**** Banner Section ****/
+.banner{
+    background: #6279df15;
+    background-size: cover;
+    /* padding: 220px 0; */
+    position: relative;
+    z-index: 1;
+}
+.banner-text{
+    margin-top: 200px;
+}
+
+.default-btn{
+    color: #fff;
+    padding: 8px 8px;
+    text-decoration: none;
+    background-color: #8490FF;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: .4s;
+    outline: none;
+    border: 2px solid transparent;
+}
+.default-btn:hover{
+    background-color: #fff;
+    color: #8490FF ;
+    border: 2px solid #8490FF;
+    box-shadow: 3px 3px 10px #6279df83;
+}
+
+
+
+/**** About Section ****/
+.container-img{
+    border: 1px solid #ddd;
+}
+
+
+/**** ActiVty Section ****/
+.activity{
+    background-color: #8490FF;
+}
+.activity h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+.activity p{
+    font-size: .9rem;
+    color: rgb(243, 235, 235);
+}
+
+
+/**** Pricing Table Section ****/
+.pricing-table-section{
+    background-color: #eef0f5;
+    padding: 50px;
+}
+.pricing-table-section .section-title h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.pricing-table-section .section-title p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.pricing-tables{
+    margin-top: 80px;
+}
+.pricing-table-item{
+    background-color: #fff;
+    box-shadow: 3px 4px 30px rgba(87, 103, 175, 0.562);
+}
+
+.p-heading{
+    padding: 10px 30px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.p-content{
+    margin-top: 20px;
+}
+.p-content ul{
+    padding: 0;
+}
+.p-heading h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.p-heading h5{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.p-heading p{
+    font-size: 15px;
+}
+.p-heading span{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 100px;
+    background-color: rgba(247, 250, 252, 0.932);
+}
+
+
+.p-content{
+    padding: 10px 30px;
+    text-align: center;
+}
+.p-content ul{
+    list-style: none;
+}
+.p-content ul li{
+    line-height: 60px;
+    color: #767676;
+    font-size: 18px;
+    padding-inline-start: 0;
+}
+.p-content ul li:last-child{
+    margin-bottom: 0;
+}
+
+
+.p-button{
+    padding-bottom: 20px;
+}
+.p-button .default-btn{
+    display: inline-block;
+    box-shadow: 3px 4px 30px rgba(87, 103, 175, 0.562);
+    background-color: #fff;
+    color: #6278df !important;
+    padding: 10px 23px;
+    border: 1px solid #6278df !important;
+    text-decoration: none;
+    border: none;
+    margin: 10px 0;
+    transition: .3s;
+}
+
+
+
+/* Pricicng Table Hover */
+.pricing-table-item:hover .default-btn{
+    background-color: #6278df;
+    color: #fff !important;
+}
+.pricing-table-item .default-btn:hover{
+    background-color: #000;
+}
+
+
+/**** Team Section  ****/
+.team-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.team-section{
+    background-color: #f7f9ff;
+}
+
+.team-members{}
+
+.member{
+    background-color: #fff;
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.295);
+    padding-top: 40px;
+}
+.member-bio{
+    padding: 20px;
+}
+.member-bio h4{
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+.member-bio p{
+    color: #767676;
+}
+.member-bio .default-btn{
+    display: inline-block;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.637);
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.295);
+    padding: 8px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    margin: 5px 0 !important;
+}
+.member-bio .default-btn:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: #fff;
+}
+
+.member{
+    position: relative;
+}
+.member img{
+    position: absolute;
+    width: 105px;
+    top: -55px;
+    left: 15px;
+    border: 2px solid #ddd;
+}
+
+
+
+/**** Contact Section ****/
+.contact-inner{
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.171);
+}
+
+.contact-left h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-left p{
+    font-size: 16px;
+    color: #767676;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+.contact-form .default-input{
+    margin-bottom: 20px;
+}
+.contact-form .submit-btn{
+    margin-left: 0;
+}
+
+.default-input{
+    width: 350px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    /* box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.171); */
+    transition: .4s;
+}
+.default-input:focus{
+    box-shadow: 5px 5px 15px #6279df91;
+    border: 2px solid #6278df;
+}
+
+.submit-btn{
+    background-color: #6278df;
+    font-size: 18px;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 8px 50px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.295);
+    transition: .4s;
+    margin: 0 auto;
+}
+.submit-btn:hover{
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.411);
+    background-color: #fff;
+    color: #6278df;
+    border: 2px solid #6278df;
+}
+
+
+
+.contact-right{
+    margin-top: 70px;
+    padding: 0 20px;
+}
+.contact-right h3{
+    font-weight: 500;
+}
+.contact-right ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-right ul li{
+    line-height: 40px;
+    font-size: 18px;
+    color: rgb(66, 64, 64);
+    font-weight: 500;
+}
+
+
+/**** Footer Section ****/
+footer p{
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    padding: 20px 0;
+}
+
